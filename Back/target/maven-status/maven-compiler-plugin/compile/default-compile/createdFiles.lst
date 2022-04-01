@@ -1,0 +1,4 @@
+com\example\BoxinatorApp\BoxinatorAppApplication.class
+com\example\BoxinatorApp\model\Box.class
+com\example\BoxinatorApp\repository\BoxRepository.class
+com\example\BoxinatorApp\controller\BoxController.class

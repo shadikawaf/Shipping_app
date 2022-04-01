@@ -1,0 +1,150 @@
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+  height: 100%;
+}
+/* ------------- Head -------------*/
+.container {
+  width: 50%;
+  margin: auto;
+}
+header {
+  background-color: #000000;
+}
+container_footer {
+  background-color: black;
+}
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.app-logo {
+  float: left;
+  color: #f4f4f4;
+}
+nav {
+  float: right;
+  padding-top: 15px;
+}
+nav li {
+  display: inline;
+  padding-left: 80px;
+  /*Top Right Botton Left*/
+}
+header a {
+  color: #fc0a0a;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+header a:hover {
+  text-decoration: underline;
+}
+.active {
+  color: #51ff00;
+}
+/* ----------- Add box ------------ */
+.add-box-container {
+  width: 20%;
+  height: 50%;
+  top: 10%;
+  left: 35%;
+  position: relative;
+  padding: 70px;
+}
+.add-box-container h1 {
+  text-align: center;
+  font-size: 40px;
+  color: green;
+  padding-bottom: 40px;
+}
+.field-title {
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+.add-box-container input {
+  font-style: italic;
+}
+.add-box-container label {
+  font-style: italic;
+}
+.add-box-container input[type="name"],
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid black;
+  background: #f4f4f4;
+  outline: none;
+  height: 30px;
+  font-size: 16px;
+  width: 100%;
+}
+.add-box-container input[type="color"] {
+  height: 30px;
+  margin-top: 10px;
+  width: 22%;
+}
+.add-box-container select {
+  background: #f4f4f4;
+  height: 30px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.save-btn {
+  background-color: green;
+  color: #f4f4f4;
+  height: 40px;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  font-style: normal;
+}
+.errorMsg {
+  color: #cc0000;
+  font-style: italic;
+}
+/* ---------------- LIST_BOXES ------------------- */
+.list-box-container {
+  width: 50%;
+  margin: auto;
+}
+.list-box-container h1 {
+  text-align: center;
+  font-size: 40px;
+  color: green;
+  padding-bottom: 40px;
+}
+table {
+  width: 100%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 15px;
+  text-align: center;
+}
+/* ---------------- FOOTER ------------------- */
+.footer {
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  color: #ffffff;
+  background-color: #A4A3A3;
+  text-align: center;
+  margin-top: 80px;
+}
+/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.css.map */
